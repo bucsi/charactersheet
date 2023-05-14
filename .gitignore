@@ -1,1 +1,3 @@
 .vscode
+mdss/build
+**/node_modules
