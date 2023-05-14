@@ -1,3 +1,7 @@
+---
+attributes: !file "example/attributes.yml"
+---
+
 <div class="two columns">
 <article>
 
@@ -6,11 +10,12 @@ Human Bard, Level 1
 
 </div>
 <div class="six columns">
-<div class="card">STR</div>
-<div class="card">DEX</div>
-<div class="card">CON</div>
-<div class="card">INT</div>
-<div class="card">WIS</div>
-<div class="card">CHA</div>
+{{#attributes}}
+<div class="primary card">
+
+## {{name}} {{modifier}}
+{{value}}
+</div>
+{{/attributes}}
 
 </div>
