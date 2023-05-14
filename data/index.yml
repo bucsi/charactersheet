@@ -1,0 +1,6 @@
+- name: Example
+  url: "#!/character/example"
+  image: "https://placekitten.com/200/300"
+- name: Example 2
+  url: "#!/character/example2"
+  image: "https://placekitten.com/200/300"
