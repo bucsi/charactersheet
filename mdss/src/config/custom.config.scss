@@ -1,0 +1,59 @@
+// You can put your custom (S)CSS code here.
+// You can use any variable declared in the other configuration files
+@mixin custom-generic {
+  .headerify {
+    font-size: nth($heading-font-size, 2);
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  figure {
+    &img {
+      max-width: 50%;
+    }
+
+    &figcaption {
+      text-align: center;
+    }
+  }
+
+  // Expose some values to CSS
+  :root {
+    --color-primary: #{$color-primary};
+    --color-accent: #{$color-accent};
+    --color-gray-light: #{$color-gray-light};
+    --color-gray-medium: #{$color-gray-medium};
+    --color-gray-dark: #{$color-gray-dark};
+    --color-black: #{$color-black};
+    --color-red: #{$color-red};
+    --color-green: #{$color-green};
+    --color-blue: #{$color-blue};
+    --color-yellow: #{$color-yellow};
+    --color-purple: #{$color-purple};
+    --color-violet: #{$color-violet};
+    --color-brown: #{$color-brown};
+    --color-white: #{$color-white};
+
+    --spacing-small: #{$spacing-small};
+    --spacing-medium: #{$spacing-medium};
+    --spacing-large: #{$spacing-large};
+  }
+}
+
+@mixin custom-screen {
+  // Styles here will be applied only to screen
+}
+
+@mixin custom-print {
+  // Styles here will be applied only to print
+}
+
+@mixin custom-page {
+  // Styles here will be applied in print to the @page directive
+}

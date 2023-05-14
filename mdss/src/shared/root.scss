@@ -1,0 +1,8 @@
+@mixin shared-root {
+  box-sizing: border-box;
+  margin: 0;
+  overflow-y: visible;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
