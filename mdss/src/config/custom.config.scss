@@ -3,6 +3,7 @@
 @mixin custom-generic {
   summary p{
     display: inline-block;
+    margin: 0;
   }
 
   h1, h2 {
