@@ -1,6 +1,10 @@
 // You can put your custom (S)CSS code here.
 // You can use any variable declared in the other configuration files
 @mixin custom-generic {
+  summary p{
+    display: inline-block;
+  }
+
   h2 {
     margin: 0;
     padding: 0;
