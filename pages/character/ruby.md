@@ -1,6 +1,7 @@
 ---
 attributes: !file "ruby/attributes.yml"
 features: !file "ruby/features.yml"
+actions: !file "ruby/actions.yml"
 ---
 
 <article class="three columns">
@@ -15,7 +16,7 @@ Warlock (Fiend, Pact of the Chain), Level 10
 
 ## Speed 30ft
 
-## Initiative +2
+## Proficiency +4
 </div>
 <div class="primary card">
 
@@ -75,16 +76,41 @@ Death Saves
 {{/attributes}}
 </div>
 
+<div class="two columns">
+<div>
+
+## Attacks and At-Will Spells
+name | casting time | range | desc
+---|---|---|---
+{{#actions}}
+{{name}} | {{casting_time}} | {{range}} | {{damage}}
+{{/actions}}
+  
+</div>
+<div>
+
 ## Features
 {{#features}}
 
 <details>
 <summary>
 
-**{{name}}.**  {{short_text}} {{#charges}} <input type="checkbox" data-field-name="{{key}}"> {{/charges}}
+**{{name}}.**  {{#charges}} <input type="checkbox" data-field-name="{{key}}"> {{/charges}}
 </summary>
 {{description}}
 
 [{{source_name}}]({{source_url}})
 </details>
 {{/features}}
+</div>
+
+<div>
+
+## Spells
+
+
+ - egyik
+ - masik
+ - harmadik
+ - negyedik
+</div>

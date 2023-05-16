@@ -1,0 +1,13 @@
+- name: Eldritch Blast
+  casting_time: Action
+  range: 120 feet
+  components: V, S
+  damage: 2 * 1d10 + INT force
+- name: Weapon Attack
+  casting_time: Action
+  range: 5 feet
+  damage: 1d8 piercing
+- name: Levitate
+  casting_time: Action
+  range: 60 feet
+  damage: 10m C
