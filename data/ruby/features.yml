@@ -1,0 +1,34 @@
+- name: Darkvision
+  short_text: "60 ft."
+  description: "You have Darkvision with a range of 60 feet."
+  source_name: Race (Tiefling)
+  source: https://5e.tools/races.html#tiefling_xua2022characteroptions
+- name: Fiendish Legacy (Abyssal)
+  short_text: "Ray of Sickness, Hold Person"
+  description: "You are the recipient of a fiendish legacy that grants you supernatural abilities: You have Resistance to Poison Damage. You also know the Poison Spray cantrip. Starting at 3rd level and again at 5th level, you gain the ability to cast a higher-level Spell with this trait: Ray of Sicknes (3rd Level) and Hold Person (5th Level) Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a Long Rest; however, you can cast the Spell using any Spell Slots you have of the appropriate level. Intelligence is your spellcasting ability for the Spells you cast with this trait."
+  resource: true
+  charges: 
+    - key: "feature.fiendish-legacy-1"
+    - key: "feature.fiendish-legacy-2"
+  recharge: "Long Rest"
+  source_name: Race (Tiefling)
+  source_url: https://5e.tools/races.html#tiefling_xua2022characteroptions 
+- name: Otherworldly Presence
+  description: "You know the Thaumaturgy cantrip. When you cast it with this trait, the Spell uses the same spellcasting ability you use for your Fiendish Legacy trait."
+  source_name: Race (Tiefling)
+  source_url: https://5e.tools/races.html#tiefling_xua2022characteroptions
+- name: Background
+  description: "Ability Scores: INT +2, WIS +1. Skill Proficiencies: Perception, Insight. Tool proficiencies: Playing Cards. Language: Infernal."
+  source_name: Character Origins (UA2022) pp. 11
+  source_url: https://media.dndbeyond.com/compendium-images/one-dnd/character-origins/CSWCVV0M4B6vX6E1/UA2022-CharacterOrigins.pdf
+- name: Lucky
+  description: "You have inexplicable luck that can kick in at just the right moment, granting you the following benefits: Luck Points. You have a number of Luck Points equal to your Proficiency Bonus. You can spend the points on the benefits below, and you regain your expended Luck Points when you finish a Long Rest.* Advantage. Immediately after you roll a d20 for a d20 Test,* you can spend 1 Luck Point to give yourself Advantage on the roll.Disadvantage. When a creature rolls a d20 for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll."
+  resource: true
+  charges: 
+    - key: "features.lucky-1"
+    - key: "features.lucky-2"
+    - key: "features.lucky-3"
+    - key: "features.lucky-4"
+  recharge: "Long Rest"
+  source_name: Character Origins (UA2022) pp. 17
+  source_url: https://media.dndbeyond.com/compendium-images/one-dnd/character-origins/CSWCVV0M4B6vX6E1/UA2022-CharacterOrigins.pdf

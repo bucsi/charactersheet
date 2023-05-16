@@ -1,3 +1,6 @@
+- name: Ruby
+  url: "#!/character/ruby"
+  image: "https://placekitten.com/200/300"
 - name: Example
   url: "#!/character/example"
   image: "https://placekitten.com/200/300"
