@@ -87,8 +87,4 @@ Death Saves
 
 [{{source_name}}]({{source_url}})
 </details>
-
-
-</div>
-
 {{/features}}
