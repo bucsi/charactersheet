@@ -7,11 +7,8 @@ features: !file "ruby/features.yml"
 <div class="card">
 
 # Ruby
-
 Warlock (Fiend, Pact of the Chain), Level 10
-
 </div>
-
 <div class="primary card">
 
 ## AC 10
@@ -19,15 +16,11 @@ Warlock (Fiend, Pact of the Chain), Level 10
 ## Speed 30ft
 
 ## Initiative +2
-
 </div>
-
 <div class="primary card">
 
 ## HP <input data-field-name="HP" type="number" value="10">/10
-
 ## Temp: <input data-field-name="tempHP" type="number" value="0"><br>
-
 <details>
 <summary>Hit Dice and Death Saves</summary>
 Hit Dice: 1d8
@@ -50,7 +43,6 @@ Death Saves
 -   Failures: <input data-field-name="deathSaveFailure1" type="checkbox">
     <input data-field-name="deathSaveFailure2" type="checkbox">
     <input data-field-name="deathSaveFailure3" type="checkbox">
-
 </details>
 
 </div>
@@ -81,7 +73,6 @@ Death Saves
 
 </div>
 {{/attributes}}
-
 </div>
 
 ## Features
@@ -93,6 +84,7 @@ Death Saves
 **{{name}}.**  {{short_text}} {{#charges}} <input type="checkbox" data-field-name="{{key}}"> {{/charges}}
 </summary>
 {{description}}
+
 [{{source_name}}]({{source_url}})
 </details>
 
