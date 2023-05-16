@@ -1,18 +1,72 @@
 - name: STR
   value: 8
   modifier: -1
+  proficiencies:
+    - name: "saving throw"
+      modifier: -1
+    - name: athletics
+      modifier: -1
 - name: DEX
   value: 15
   modifier: "+2"
+  proficiencies:
+    - name: "saving throw"
+      modifier: "+2"
+    - name: acrobatics
+      modifier: "+2"
+    - name: "sleight of hand"
+      modifier: "+2"
+    - name: stealth
+      modifier: "+2"
 - name: CON
   value: 13
   modifier: "+1"
+  proficiencies:
+    - name: "saving throw"
+      modifier: "+1"
 - name: INT
   value: 16
   modifier: "+4"
+  proficiencies:
+    - name: "saving throw"
+      modifier: "+4"
+    - name: arcana
+      modifier: "+4"
+    - name: history
+      modifier: "+4"
+    - name: investigation
+      modifier: "+4"
+    - name: nature
+      modifier: "+4"
+    - name: religion
+      modifier: "+4"
 - name: WIS
   value: 14
   modifier: "+2"
+  proficiencies:
+    - name: "saving throw"
+      modifier: "+2"
+    - name: "animal handling"
+      modifier: "+2"
+    - name: insight
+      modifier: "+2"
+    - name: medicine
+      modifier: "+2"
+    - name: perception
+      modifier: "+2"
+    - name: survival
+      modifier: "+2"
 - name: CHA
   value: 10
   modifier: "+0"
+  proficiencies:
+    - name: "saving throw"
+      modifier: "+0"
+    - name: deception
+      modifier: "+0"
+    - name: intimidation
+      modifier: "+0"
+    - name: performance
+      modifier: "+0"
+    - name: persuasion
+      modifier: "+0"

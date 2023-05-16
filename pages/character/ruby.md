@@ -65,6 +65,19 @@ Death Saves
 ## {{name}} {{modifier}}
 
 {{value}}
+</div>
+{{/attributes}}
+</div>
+
+<div class="six columns">
+{{#attributes}}
+<div>
+
+{{#proficiencies}}
+
+{{name}} {{modifier}}
+
+{{/proficiencies}}
 
 </div>
 {{/attributes}}
