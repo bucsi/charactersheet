@@ -2,9 +2,9 @@
   short_text: "60 ft."
   description: "You have Darkvision with a range of 60 feet."
   source_name: Race (Tiefling)
-  source: https://5e.tools/races.html#tiefling_xua2022characteroptions
+  source_url: https://5e.tools/races.html#tiefling_xua2022characteroptions
 - name: Fiendish Legacy (Abyssal)
-  short_text: "Ray of Sickness, Hold Person"
+  short_text: "Poison Resistance, Ray of Sickness, Hold Person"
   description: "You are the recipient of a fiendish legacy that grants you supernatural abilities: You have Resistance to Poison Damage. You also know the Poison Spray cantrip. Starting at 3rd level and again at 5th level, you gain the ability to cast a higher-level Spell with this trait: Ray of Sicknes (3rd Level) and Hold Person (5th Level) Once you cast the Spell with this trait, you can't cast that Spell with it again until you finish a Long Rest; however, you can cast the Spell using any Spell Slots you have of the appropriate level. Intelligence is your spellcasting ability for the Spells you cast with this trait."
   resource: true
   charges: 
@@ -19,7 +19,7 @@
   source_url: https://5e.tools/races.html#tiefling_xua2022characteroptions
 - name: Background
   description: "Ability Scores: INT +2, WIS +1. Skill Proficiencies: Perception, Insight. Tool proficiencies: Playing Cards. Language: Infernal."
-  source_name: Character Origins (UA2022) pp. 11
+  source_name: Background (XUA22CO pp. 11)
   source_url: https://media.dndbeyond.com/compendium-images/one-dnd/character-origins/CSWCVV0M4B6vX6E1/UA2022-CharacterOrigins.pdf
 - name: Lucky
   description: "You have inexplicable luck that can kick in at just the right moment, granting you the following benefits: Luck Points. You have a number of Luck Points equal to your Proficiency Bonus. You can spend the points on the benefits below, and you regain your expended Luck Points when you finish a Long Rest.* Advantage. Immediately after you roll a d20 for a d20 Test,* you can spend 1 Luck Point to give yourself Advantage on the roll.Disadvantage. When a creature rolls a d20 for an attack roll against you, you can spend 1 Luck Point to impose Disadvantage on that roll."
@@ -30,5 +30,44 @@
     - key: "features.lucky-3"
     - key: "features.lucky-4"
   recharge: "Long Rest"
-  source_name: Character Origins (UA2022) pp. 17
+  source_name: Background (XUA22CO pp. 17)
   source_url: https://media.dndbeyond.com/compendium-images/one-dnd/character-origins/CSWCVV0M4B6vX6E1/UA2022-CharacterOrigins.pdf
+- name: Pact of the Chain
+  short_text: ""
+  description: "Spellcasting Ability: Intelligence, Pact Spell: Pact Familiar"
+  source_name: Warlock (XUA23PH pp. 33)
+  source_url: https://media.dndbeyond.com/compendium-images/one-dnd/ph-playtest5/owThVp1CESZ1c91y/UA-2023-PH-Playtest5.pdf
+- name: Eldritch Invocations
+  short_text: "4 (TBD)"
+  description: "Agonizing Blast, Ascendant Step, Eldritch Sight, Rune Keeper/Gaze of Two Minds?"
+  source_name: Warlock (XUA23PH pp. 33)
+  source_url: https://media.dndbeyond.com/compendium-images/one-dnd/ph-playtest5/owThVp1CESZ1c91y/UA-2023-PH-Playtest5.pdf
+- name: Fiend Patron Spells
+  short_text: "Free spellcast"
+  description: "Prepared Spells. You always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared. Free Casting. You can cast one of your prepared spells from this feature without expending a Spell Slot, and you must finish a Long Rest before you use this benefit again. Spells: Burning Hands, Command, Scorching Ray, Suggestion, Fear, Stinking Cloud"
+  resource: true
+  charges: 
+    - key: "features.patron-spell"
+  source_name: Warlock (XUA23PH pp. 38)
+  source_url: https://media.dndbeyond.com/compendium-images/one-dnd/ph-playtest5/owThVp1CESZ1c91y/UA-2023-PH-Playtest5.pdf
+- name: Dark One's Blessing
+  short_text: "INT+10 temp HP"
+  description: "When you reduce an enemy to 0 Hit Points or an enemy drops to 0 Hit Points within 5 feet of you, you gain Temporary Hit Points equal to your spellcasting ability modifier + your Warlock level (minimum of 1)."
+  source_name: Warlock (XUA23PH pp. 38)
+  source_url: https://media.dndbeyond.com/compendium-images/one-dnd/ph-playtest5/owThVp1CESZ1c91y/UA-2023-PH-Playtest5.pdf
+- name: "Dark One's Own Luck"
+  short_text: "+d10 INT times"
+  description: "You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll’s effects occur. You can use this feature a number of times equal to your spellcasting ability modifier (minimum of once), and you regain all uses when you finish a Long Rest."
+  resource: true
+  charges: 
+    - key: "features.dark-luck-1"
+    - key: "features.dark-luck-2"
+    - key: "features.dark-luck-3"
+    - key: "features.dark-luck-4"
+  source_name: Warlock (XUA23PH pp. 38)
+  source_url: https://media.dndbeyond.com/compendium-images/one-dnd/ph-playtest5/owThVp1CESZ1c91y/UA-2023-PH-Playtest5.pdf
+- name: Feats
+  short_text: "2 (TBD)"
+  description: ""
+  source_name: Warlock (XUA23PH pp. 33)
+  source_url: https://media.dndbeyond.com/compendium-images/one-dnd/ph-playtest5/owThVp1CESZ1c91y/UA-2023-PH-Playtest5.pdf
