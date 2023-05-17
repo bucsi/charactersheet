@@ -120,3 +120,13 @@ Death Saves
 
 {{/prepared_spells}}
 </div>
+
+<div>
+
+## Items
+- [Cape of the Mountebank](https://5e.tools/items.html#cape%20of%20the%20mountebank_dmg) <input type="checkbox" data-field-name="items.cape-mountebank">
+- [Immovable Rod](https://5e.tools/items.html#immovable%20rod_dmg)
+
+</div>
+
+</div>
