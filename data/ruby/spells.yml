@@ -14,6 +14,8 @@
     url: https://5e.tools/spells.html#burning%20hands_phb
   - name: Command
     url: https://5e.tools/spells.html#command_phb
+  - name: Hex (pp. 9)
+    url: https://media.dndbeyond.com/compendium-images/one-dnd/ph-playtest5/owThVp1CESZ1c91y/UA-2023-PH-Playtest5.pdf
   slots:
     - key: "spell.slot.1-1"
     - key: "spell.slot.1-2"
