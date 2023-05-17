@@ -65,6 +65,10 @@
     - key: "features.dark-luck-4"
   source_name: Warlock (XUA23PH pp. 38)
   source_url: https://media.dndbeyond.com/compendium-images/one-dnd/ph-playtest5/owThVp1CESZ1c91y/UA-2023-PH-Playtest5.pdf
+- name: Fiendish Resilience
+  description: "Chosen: fire resistance. Channeling the preternatural resilience of Fiends, you can choose one damage type, other than Force, whenever you finish a Short Rest or Long Rest. You gain Resistance to that damage type until you choose a different one with this feature."
+  source_name: Warlock (XUA23PH pp. 38)
+  source_url: https://media.dndbeyond.com/compendium-images/one-dnd/ph-playtest5/owThVp1CESZ1c91y/UA-2023-PH-Playtest5.pdf
 - name: Feats
   short_text: ""
   description: "ASI (INT +2), War Caster (adv. on Concentration)"
