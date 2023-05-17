@@ -2,6 +2,7 @@
 attributes: !file "ruby/attributes.yml"
 features: !file "ruby/features.yml"
 actions: !file "ruby/actions.yml"
+prepared_spells: !file "ruby/spells.yml"
 ---
 
 <article class="three columns">
@@ -107,10 +108,15 @@ name | casting time | range | desc
 <div>
 
 ## Spells
+{{#prepared_spells}}
 
+### {{level}} Level {{#slots}} <input type="checkbox" data-field-name="{{key}}"> {{/slots}}
 
- - egyik
- - masik
- - harmadik
- - negyedik
+{{#spells}}
+
+- [{{name}}]({{url}})
+
+{{/spells}}
+
+{{/prepared_spells}}
 </div>

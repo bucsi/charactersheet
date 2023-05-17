@@ -1,0 +1,52 @@
+- level: 1st
+  spells:
+  - name: Chromatic Orb
+    url: https://5e.tools/spells.html#chromatic%20orb_phb
+  - name: Expeditious Retreat
+    url: https://5e.tools/spells.html#expeditious%20retreat_phb
+  - name: Shield
+    url: https://5e.tools/spells.html#shield_phb
+  - name: Magic Missile
+    url: https://5e.tools/spells.html#magic%20missile_phb
+  - name: Ray of Sickness
+    url: https://5e.tools/spells.html#ray%20of%20sickness_phb
+  - name: Burning Hands
+    url: https://5e.tools/spells.html#burning%20hands_phb
+  - name: Command
+    url: https://5e.tools/spells.html#command_phb
+  slots:
+    - key: "spell.slot.1-1"
+    - key: "spell.slot.1-2"
+    - key: "spell.slot.1-3"
+    - key: "spell.slot.1-4"
+- level: 2nd
+  spells:
+  - name: Detect Thoughts
+    url: https://5e.tools/spells.html#detect%20thoughts_phb
+  - name: Enlarge / Reduce
+    url: https://5e.tools/spells.html#enlarge%2freduce_phb
+  - name: Shatter
+    url: https://5e.tools/spells.html#shatter_phb
+  - name: Hold Person
+    url: https://5e.tools/spells.html#hold%20person_phb
+  - name: Scorching Ray
+    url: https://5e.tools/spells.html#scorching%20ray_phb
+  - name: Suggestion
+    url: https://5e.tools/spells.html#suggestion_phb
+  slots:
+    - key: "spell.slot.2-1"
+    - key: "spell.slot.2-2"
+    - key: "spell.slot.2-3"
+- level: 3rd
+  spells:
+  - name: Dimension Door
+    url: https://5e.tools/spells.html#dimension%20door_phb
+  - name: Banishment
+    url: https://5e.tools/spells.html#banishment_phb
+  - name: Fear
+    url: https://5e.tools/spells.html#banishment_phb
+  - name: Stinking Cloud
+    url: https://5e.tools/spells.html#stinking%20cloud_phb
+  slots:
+    - key: "spell.slot.3-1"
+    - key: "spell.slot.3-2"
