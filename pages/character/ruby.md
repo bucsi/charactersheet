@@ -83,7 +83,7 @@ Death Saves
 ## Attacks and At-Will Spells
 {{#actions}}
 
-- [{{name}}](url)  
+- [{{name}}]({{url}})  
   {{description}}
 {{/actions}}
   
