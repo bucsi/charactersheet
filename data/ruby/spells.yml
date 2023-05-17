@@ -45,8 +45,6 @@
   spells:
   - name: Counterspell
     url: https://5e.tools/spells.html#counterspell_phb
-  - name: Banishment
-    url: https://5e.tools/spells.html#banishment_phb
   - name: Fear
     url: https://5e.tools/spells.html#banishment_phb
   - name: Stinking Cloud
