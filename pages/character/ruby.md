@@ -21,7 +21,7 @@ Warlock (Fiend, Pact of the Chain), Level 10
 </div>
 <div class="primary card">
 
-## HP <input data-field-name="HP" type="number" value="50">/50
+## HP <input data-field-name="HP" type="number" value="55">/55
 ## Temp: <input data-field-name="tempHP" type="number" value="0"><br>
 <details>
 <summary>Hit Dice and Death Saves</summary>
