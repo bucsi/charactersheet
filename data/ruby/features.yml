@@ -10,7 +10,6 @@
   charges: 
     - key: "feature.fiendish-legacy-1"
     - key: "feature.fiendish-legacy-2"
-  recharge: "Long Rest"
   source_name: Race (Tiefling)
   source_url: https://5e.tools/races.html#tiefling_xua2022characteroptions 
 - name: Otherworldly Presence
