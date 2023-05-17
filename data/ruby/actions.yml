@@ -1,13 +1,20 @@
 - name: Eldritch Blast
-  casting_time: Action
-  range: 120 feet
-  components: V, S
-  damage: 2 * 1d10 + INT force
-- name: Weapon Attack
-  casting_time: Action
-  range: 5 feet
-  damage: 1d8 piercing
+  description: "+9 to hit, 2 * 1d10 + 5 force"
+  url: https://5e.tools/spells.html#eldritch%20blast_phb
+- name: Poison Spray
+  description: "10 ft. CON save or 1d12 poison"
+  url: https://5e.tools/spells.html#poison%20spray_phb
+- name: Thaumaturgy
+  url: https://5e.tools/spells.html#thaumaturgy_phb
+- name: Message
+  url: https://5e.tools/spells.html#message_phb
+- name: Dancing Lights
+  url: https://5e.tools/spells.html#dancing%20lights_phb
+- name: Minor Illusion
+  url: https://5e.tools/spells.html#minor%20illusion_phb
+- name: Dagger +2
+  description: "+8 to hit, 1d4 + 4 piercing"
 - name: Levitate
-  casting_time: Action
-  range: 60 feet
-  damage: 10m C
+  url: https://5e.tools/spells.html#levitate_phb
+- name: Pact Familiar (pp. 10)
+  url: https://media.dndbeyond.com/compendium-images/one-dnd/ph-playtest5/owThVp1CESZ1c91y/UA-2023-PH-Playtest5.pdf

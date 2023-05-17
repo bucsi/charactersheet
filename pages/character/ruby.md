@@ -81,10 +81,10 @@ Death Saves
 <div>
 
 ## Attacks and At-Will Spells
-name | casting time | range | desc
----|---|---|---
 {{#actions}}
-{{name}} | {{casting_time}} | {{range}} | {{damage}}
+
+- [{{name}}](url)  
+  {{description}}
 {{/actions}}
   
 </div>
