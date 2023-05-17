@@ -13,7 +13,7 @@ Warlock (Fiend, Pact of the Chain), Level 10
 </div>
 <div class="primary card">
 
-## AC 10
+## AC 16
 
 ## Speed 30ft
 
