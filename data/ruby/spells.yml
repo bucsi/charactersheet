@@ -29,6 +29,8 @@
     url: https://5e.tools/spells.html#enlarge%2freduce_phb
   - name: Shatter
     url: https://5e.tools/spells.html#shatter_phb
+  - name: Phantasmal Force
+    url: https://5e.tools/spells.html#phantasmal%20force_phb
   - name: Hold Person
     url: https://5e.tools/spells.html#hold%20person_phb
   - name: Scorching Ray
@@ -41,8 +43,8 @@
     - key: "spell.slot.2-3"
 - level: 3rd
   spells:
-  - name: Dimension Door
-    url: https://5e.tools/spells.html#dimension%20door_phb
+  - name: Counterspell
+    url: https://5e.tools/spells.html#counterspell_phb
   - name: Banishment
     url: https://5e.tools/spells.html#banishment_phb
   - name: Fear
