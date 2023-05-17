@@ -25,35 +25,35 @@
     - name: "saving throw"
       modifier: "+1"
 - name: INT
-  value: 16
+  value: 18
   modifier: "+4"
   proficiencies:
     - name: "saving throw"
       modifier: "+4"
     - name: arcana
-      modifier: "+4"
+      modifier: "+8"
     - name: history
       modifier: "+4"
     - name: investigation
-      modifier: "+4"
+      modifier: "+8"
     - name: nature
       modifier: "+4"
     - name: religion
       modifier: "+4"
 - name: WIS
   value: 14
-  modifier: "+2"
+  modifier: "+6"
   proficiencies:
     - name: "saving throw"
       modifier: "+2"
     - name: "animal handling"
       modifier: "+2"
-    - name: insight
-      modifier: "+2"
+    - name: insight*
+      modifier: "+6"
     - name: medicine
       modifier: "+2"
-    - name: perception
-      modifier: "+2"
+    - name: perception*
+      modifier: "+6"
     - name: survival
       modifier: "+2"
 - name: CHA
@@ -61,7 +61,7 @@
   modifier: "+0"
   proficiencies:
     - name: "saving throw"
-      modifier: "+0"
+      modifier: "+4"
     - name: deception
       modifier: "+0"
     - name: intimidation
