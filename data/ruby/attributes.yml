@@ -25,21 +25,21 @@
     - name: "saving throw"
       modifier: "+1"
 - name: INT
-  value: 18
-  modifier: "+4"
+  value: 20
+  modifier: "+5"
   proficiencies:
     - name: "saving throw"
-      modifier: "+4"
+      modifier: "+5"
     - name: arcana
-      modifier: "+8"
+      modifier: "+9"
     - name: history
-      modifier: "+4"
+      modifier: "+5"
     - name: investigation
-      modifier: "+8"
+      modifier: "+9"
     - name: nature
-      modifier: "+4"
+      modifier: "+5"
     - name: religion
-      modifier: "+4"
+      modifier: "+5"
 - name: WIS
   value: 14
   modifier: "+6"
